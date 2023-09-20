@@ -42,5 +42,6 @@ module.exports = {
             ignoreTemplateLiterals: true,
             ignoreRegExpLiterals: true,
         }],
+        'class-methods-use-this': 0,
     },
 };
