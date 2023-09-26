@@ -1,6 +1,6 @@
 const { pages } = require('../pages/Pages');
 
-describe('My First Test', () => {
+describe ('My First Test', () => {
     it('Perform login', async () => {
         await pages.loginPage.navigate();
         await pages.loginPage.performLogin('standard_user', 'secret_sauce');
